@@ -1,0 +1,98 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
+All colors MUST be HSL.
+*/
+
+@layer base {
+  :root {
+    /* Matching NL Eats color scheme */
+    --background: 42 35% 92%;  /* Warm cream background */
+    --foreground: 220 20% 15%;  /* Dark navy text */
+
+    --card: 40 30% 96%;
+    --card-foreground: 220 20% 15%;
+
+    --popover: 40 30% 96%;
+    --popover-foreground: 220 20% 15%;
+
+    --primary: 70 18% 45%;  /* Olive/moss green like NL Eats */
+    --primary-foreground: 40 30% 96%;
+
+    --secondary: 42 35% 88%;
+    --secondary-foreground: 220 20% 15%;
+
+    --muted: 42 25% 85%;
+    --muted-foreground: 220 15% 40%;
+
+    --accent: 16 100% 57%;  /* Bright orange-red for CTAs */
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 42 25% 80%;
+    --input: 42 25% 85%;
+    --ring: 70 18% 45%;
+
+    --radius: 0.75rem;
+
+    /* Custom event colors */
+    --event-gold: 45 100% 51%;
+    --event-silver: 0 0% 75%;
+    --event-bronze: 25 75% 47%;
+
+    /* Gradients */
+    --gradient-hero: linear-gradient(135deg, hsl(70 18% 35%), hsl(70 18% 55%));
+    --gradient-accent: linear-gradient(135deg, hsl(16 100% 57%), hsl(16 100% 67%));
+
+    /* Animations */
+    --transition-smooth: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    
+    /* Shadows */
+    --shadow-soft: 0 4px 20px -4px hsl(220 20% 15% / 0.15);
+    --shadow-elevated: 0 10px 40px -10px hsl(220 20% 15% / 0.25);
+  }
+
+  .dark {
+    --background: 220 25% 8%;
+    --foreground: 42 35% 92%;
+
+    --card: 220 22% 12%;
+    --card-foreground: 42 35% 92%;
+
+    --popover: 220 22% 12%;
+    --popover-foreground: 42 35% 92%;
+
+    --primary: 70 20% 55%;
+    --primary-foreground: 220 25% 8%;
+
+    --secondary: 220 20% 15%;
+    --secondary-foreground: 42 35% 92%;
+
+    --muted: 220 20% 18%;
+    --muted-foreground: 42 20% 65%;
+
+    --accent: 16 100% 57%;
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 42 35% 92%;
+
+    --border: 220 20% 18%;
+    --input: 220 20% 18%;
+    --ring: 70 20% 55%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+}
