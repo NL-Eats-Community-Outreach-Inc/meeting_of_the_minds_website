@@ -13,7 +13,7 @@ export const Registration = () => {
 
   const handleRegister = () => {
     // This will be connected to Shopify product
-    alert("Registration coming soon! Team registration will be available through our Shopify store.");
+    alert("Freddie Test!");
   };
 
   return (
