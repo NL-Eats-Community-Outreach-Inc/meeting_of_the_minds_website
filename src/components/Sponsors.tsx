@@ -26,13 +26,13 @@ export const Sponsors = () => {
             Sponsors & Partners
           </h2>
           <p className="text-xl text-muted-foreground">
-            Proudly supported by our community partners
+            Coming Soon : )
           </p>
         </div>
 
         <div className="space-y-12 max-w-5xl mx-auto">
           {/* Title Sponsor */}
-          <div>
+          {/* <div>
             <h3 className="text-2xl font-bold text-center text-foreground mb-8">
               {sponsors.title}
             </h3>
@@ -45,10 +45,10 @@ export const Sponsors = () => {
                 </div>
               </CardContent>
             </Card>
-          </div>
+          </div> */}
 
           {/* Supporting Sponsors */}
-          <div>
+          {/* <div>
             <h3 className="text-2xl font-bold text-center text-foreground mb-8">
               {supporting.title}
             </h3>
@@ -61,10 +61,10 @@ export const Sponsors = () => {
                 </Card>
               ))}
             </div>
-          </div>
+          </div> */}
 
           {/* Media Partners */}
-          <div>
+          {/* <div>
             <h3 className="text-2xl font-bold text-center text-foreground mb-8">
               {media.title}
             </h3>
@@ -77,7 +77,7 @@ export const Sponsors = () => {
                 </Card>
               ))}
             </div>
-          </div>
+          </div> */}
         </div>
 
         {/* Become a Sponsor CTA */}
@@ -93,9 +93,10 @@ export const Sponsors = () => {
               <Button
                 size="lg"
                 className="bg-background text-primary hover:bg-background/90"
+                onClick={() => { window.location.href = "https://www.canva.com/design/DAG4y9evWSE/XOiulbhtgL-PP4euOrNJYw/edit?utm_content=DAG4y9evWSE&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton" }}
               >
                 <Download className="mr-2 h-5 w-5" />
-                Download Sponsorship Package
+                View Sponsorship Package
               </Button>
             </CardContent>
           </Card>

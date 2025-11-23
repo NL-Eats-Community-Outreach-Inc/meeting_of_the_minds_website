@@ -7,7 +7,7 @@ import { Sponsors } from "@/components/Sponsors";
 import { NLEats } from "@/components/NLEats";
 import { Hosts } from "@/components/Hosts";
 import { Schedule } from "@/components/Schedule";
-import { Media } from "@/components/Media";
+import { Volunteer } from "@/components/Volunteer";
 import { Footer } from "@/components/Footer";
 
 const Index = () => {
@@ -18,12 +18,10 @@ const Index = () => {
         <Hero />
         <About />
         <Registration />
-        <Prizes />
         <Sponsors />
         <NLEats />
-        <Hosts />
         <Schedule />
-        <Media />
+        <Volunteer />
       </main>
       <Footer />
     </div>

@@ -42,29 +42,15 @@ export const Header = () => {
             <Button
               variant="ghost"
               className="text-primary-foreground hover:bg-primary-foreground/10"
-              onClick={() => scrollToSection("prizes")}
+              onClick={() => scrollToSection("schedule")}
             >
-              Prizes
-            </Button>
-            <Button
-              variant="ghost"
-              className="text-primary-foreground hover:bg-primary-foreground/10"
-              onClick={() => scrollToSection("hosts")}
-            >
-              Hosts
-            </Button>
-            <Button
-              variant="ghost"
-              className="text-primary-foreground hover:bg-primary-foreground/10"
-              onClick={() => scrollToSection("venue")}
-            >
-              Venue
+              Schedule
             </Button>
             <Button
               className="ml-4 bg-accent hover:bg-accent/90 text-accent-foreground"
-              onClick={() => scrollToSection("register")}
+              onClick={() => { window.location.href = "https://shop.meetingofthemindstrivia.com/products/tickets"; }}
             >
-              Sign Up Now
+              Register Your Team!
             </Button>
           </nav>
 

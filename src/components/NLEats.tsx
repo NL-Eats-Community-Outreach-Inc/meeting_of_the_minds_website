@@ -49,6 +49,14 @@ export const NLEats = () => {
                     </li>
                     <li className="flex items-start space-x-2">
                       <span className="text-primary mt-1">•</span>
+                      <span>Supports educational programs to help build more sustainable food systems</span>
+                    </li>
+                    <li className="flex items-start space-x-2">
+                      <span className="text-primary mt-1">•</span>
+                      <span>Helps innovators build technical solutions to combat food insecurity</span>
+                    </li>
+                    <li className="flex items-start space-x-2">
+                      <span className="text-primary mt-1">•</span>
                       <span>Builds stronger, more resilient communities</span>
                     </li>
                   </ul>
@@ -58,7 +66,7 @@ export const NLEats = () => {
                   <Button
                     size="lg"
                     className="w-full md:w-auto bg-accent hover:bg-accent/90 text-accent-foreground"
-                    onClick={() => window.open("https://www.nleatscommunity.com/", "_blank")}
+                    onClick={() => window.open("https://www.nleats.com/", "_blank")}
                   >
                     <ExternalLink className="mr-2 h-5 w-5" />
                     Visit NL Eats Website

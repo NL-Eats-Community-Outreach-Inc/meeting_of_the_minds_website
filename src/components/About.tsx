@@ -9,19 +9,14 @@ export const About = () => {
       description: "St. John's first-ever citywide trivia championship",
     },
     {
-      icon: Users,
-      title: "Inclusive Community",
-      description: "Teams from workplaces, friend groups, and trivia enthusiasts",
+      icon: Heart,
+      title: "For a Great Cause",
+      description: "All net profits support NL Eats",
     },
     {
       icon: Sparkles,
       title: "Multimedia Rounds",
       description: "Curated audio, video, and puzzle challenges",
-    },
-    {
-      icon: Heart,
-      title: "For a Cause",
-      description: "All net profits support NL Eats",
     },
   ];
 
@@ -40,7 +35,7 @@ export const About = () => {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {features.map((feature) => (
             <Card
               key={feature.title}

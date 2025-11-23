@@ -42,7 +42,7 @@ export const Venue = () => {
                 </div>
                 <div className="flex-1">
                   <h3 className="text-2xl font-bold text-card-foreground mb-4">
-                    Signal Hill Campus
+                    MUN Signal Hill Campus
                   </h3>
                   <p className="text-lg text-card-foreground/80 mb-4">
                     St. John's, Newfoundland and Labrador

@@ -51,7 +51,6 @@ export const Schedule = () => {
     { label: "Total Rounds", value: "12" },
     { label: "Questions per Round", value: "10" },
     { label: "Intermissions", value: "2" },
-    { label: "Multimedia Rounds", value: "Audio, Video, Images" },
   ];
 
   return (
@@ -67,7 +66,7 @@ export const Schedule = () => {
         </div>
 
         {/* Structure Overview */}
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-4 max-w-4xl mx-auto mb-12">
+        <div className="grid grid-cols-2 md:grid-cols-3 gap-4 max-w-4xl mx-auto mb-12">
           {structure.map((item) => (
             <Card key={item.label} className="border-border bg-background">
               <CardContent className="p-6 text-center">
@@ -114,11 +113,7 @@ export const Schedule = () => {
               <ul className="space-y-2 text-muted-foreground">
                 <li className="flex items-start space-x-2">
                   <span className="text-primary mt-1">•</span>
-                  <span>1 point per correct answer (120 points possible)</span>
-                </li>
-                <li className="flex items-start space-x-2">
-                  <span className="text-primary mt-1">•</span>
-                  <span>Bonus/meta questions for extra points</span>
+                  <span>1 point per correct answer</span>
                 </li>
                 <li className="flex items-start space-x-2">
                   <span className="text-primary mt-1">•</span>

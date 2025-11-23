@@ -43,11 +43,11 @@ export const Hero = () => {
           <div className="flex flex-wrap justify-center gap-6 text-background/90 text-lg">
             <div className="flex items-center space-x-2">
               <Calendar className="h-6 w-6" />
-              <span className="font-medium">January 31, 2025 • 7:00-10:00 PM</span>
+              <span className="font-medium">January 31st, 2026 • 7:00-10:00 PM</span>
             </div>
             <div className="flex items-center space-x-2">
               <MapPin className="h-6 w-6" />
-              <span className="font-medium">Signal Hill Campus, St. John's, NL</span>
+              <span className="font-medium">MUN Signal Hill Campus, St. John's, NL</span>
             </div>
             <div className="flex items-center space-x-2">
               <Users className="h-6 w-6" />
