@@ -5,15 +5,15 @@ import { Users, DollarSign, Gift, Heart, ShoppingCart } from "lucide-react";
 export const Registration = () => {
   const benefits = [
     "Full championship admission",
-    "Chance to win prizes worth over $1,000",
+    "Chance to win a grand prize of $1,000 plus trophy",
     "Support NL Eats local charity",
     "Complimentary team photo",
     "Access to side games and contests",
   ];
 
   const handleRegister = () => {
-    // This will be connected to Shopify product
-    window.location.href = "https://shop.meetingofthemindstrivia.com";
+    // Redirect to shopify website
+    window.location.href = "https://shop.meetingofthemindstrivia.com/products/tickets";
   };
 
   return (
@@ -35,7 +35,7 @@ export const Registration = () => {
               <CardTitle>Team Size</CardTitle>
             </CardHeader>
             <CardContent className="text-center">
-              <p className="text-3xl font-bold text-foreground mb-2">5-6</p>
+              <p className="text-3xl font-bold text-foreground mb-2">5</p>
               <p className="text-muted-foreground">Players per team</p>
             </CardContent>
           </Card>
@@ -46,7 +46,7 @@ export const Registration = () => {
               <CardTitle>Entry Fee</CardTitle>
             </CardHeader>
             <CardContent className="text-center">
-              <p className="text-3xl font-bold text-foreground mb-2">$150-$200</p>
+              <p className="text-3xl font-bold text-foreground mb-2">$200</p>
               <p className="text-muted-foreground">Per team</p>
             </CardContent>
           </Card>

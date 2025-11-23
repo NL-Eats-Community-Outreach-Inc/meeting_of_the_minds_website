@@ -6,7 +6,7 @@ export const Footer = () => {
   return (
     <footer className="bg-primary text-primary-foreground py-16">
       <div className="container mx-auto px-4">
-        <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-12 mb-12">
+        <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 mb-12">
           {/* About */}
           <div>
             <h3 className="text-2xl font-bold mb-4">Meeting of the Minds</h3>
@@ -14,7 +14,7 @@ export const Footer = () => {
               St. John's premier trivia championship supporting NL Eats.
             </p>
             <p className="text-sm text-primary-foreground/60">
-              All net proceeds benefit families facing food insecurity.
+              All net proceeds go towards short-term and long-term solutions to fight food insecurity.
             </p>
           </div>
 
@@ -40,14 +40,6 @@ export const Footer = () => {
               </li>
               <li>
                 <a
-                  href="#prizes"
-                  className="text-primary-foreground/80 hover:text-primary-foreground transition-colors"
-                >
-                  Prizes
-                </a>
-              </li>
-              <li>
-                <a
                   href="#sponsors"
                   className="text-primary-foreground/80 hover:text-primary-foreground transition-colors"
                 >
@@ -56,36 +48,17 @@ export const Footer = () => {
               </li>
               <li>
                 <a
-                  href="https://www.nleatscommunity.com/"
+                  href="https://www.nleats.com/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-primary-foreground/80 hover:text-primary-foreground transition-colors"
                 >
-                  NL Eats
+                  Learn More About NL Eats
                 </a>
               </li>
             </ul>
           </div>
 
-          {/* Contact */}
-          <div>
-            <h4 className="text-lg font-bold mb-4">Stay Updated</h4>
-            <p className="text-primary-foreground/80 mb-4 text-sm">
-              Get the latest news and updates about Meeting of the Minds
-            </p>
-            <div className="flex gap-2">
-              <Input
-                type="email"
-                placeholder="Your email"
-                className="bg-primary-foreground/10 border-primary-foreground/20 text-primary-foreground placeholder:text-primary-foreground/50"
-              />
-              <Button
-                className="bg-accent hover:bg-accent/90 text-accent-foreground"
-              >
-                <Mail className="h-4 w-4" />
-              </Button>
-            </div>
-          </div>
         </div>
 
         {/* Bottom Bar */}
