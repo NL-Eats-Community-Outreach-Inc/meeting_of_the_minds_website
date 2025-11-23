@@ -13,7 +13,7 @@ export const Registration = () => {
 
   const handleRegister = () => {
     // This will be connected to Shopify product
-    window.open('https://shop.meetingofthemindstrivia.com/', '_blank');
+    window.location.href = "https://shop.meetingofthemindstrivia.com";
   };
 
   return (
