@@ -93,7 +93,7 @@ export const Registration = () => {
             </Button>
 
             <p className="text-center text-muted-foreground mt-4 text-sm">
-              Limited to 20 teams • First come, first served
+              Limited to 20 teams • First come, first served • Powered by secure Shopify checkout
             </p>
           </CardContent>
         </Card>
