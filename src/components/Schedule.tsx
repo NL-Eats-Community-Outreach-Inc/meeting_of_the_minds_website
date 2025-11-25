@@ -1,46 +1,64 @@
 import { Card, CardContent } from "@/components/ui/card";
-import { Clock, Play, Coffee, Trophy } from "lucide-react";
+import { Clock, Play, Coffee, Trophy, BookOpen, ChartBar } from "lucide-react";
 
 export const Schedule = () => {
   const schedule = [
     {
-      time: "7:00 PM",
+      time: "Before 7:00 PM",
       title: "Doors Open & Team Check-in",
       description: "Registration, team photos, and settle in",
       icon: Clock,
     },
     {
-      time: "7:30 PM",
+      time: "7:00–7:10 PM",
+      title: "Introductions",
+      description: "Intros of NL Eats and rules",
+      icon: BookOpen,
+    },
+    {
+      time: "7:10–7:58 PM",
       title: "Round 1-4",
       description: "First four rounds of trivia (10 questions each)",
       icon: Play,
     },
     {
-      time: "8:15 PM",
+      time: "7:58–8:12 PM",
       title: "First Intermission",
       description: "Stretch, refresh drinks, and strategize",
       icon: Coffee,
     },
     {
-      time: "8:30 PM",
+      time: "8:12–8:15 PM",
+      title: "Scoring Update",
+      description: "See how the competition is shaping up",
+      icon: ChartBar,
+    },
+    {
+      time: "8:15–9:03 PM",
       title: "Round 5-8",
       description: "Multimedia rounds including audio, video, and images",
       icon: Play,
     },
     {
-      time: "9:15 PM",
+      time: "9:03–9:18 PM",
       title: "Second Intermission",
       description: "Final break and side game results",
       icon: Coffee,
     },
     {
-      time: "9:30 PM",
+      time: "9:18–9:21 PM",
+      title: "Scoring Update",
+      description: "See how the competition is shaping up",
+      icon: ChartBar,
+    },
+    {
+      time: "9:21–10:09 PM",
       title: "Final Rounds",
       description: "Last challenge rounds with bonus questions",
       icon: Play,
     },
     {
-      time: "10:00 PM",
+      time: "10:09–10:30 PM",
       title: "Awards Ceremony",
       description: "Winners announced and prizes awarded",
       icon: Trophy,
