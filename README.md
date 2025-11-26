@@ -4,6 +4,12 @@
 
 **URL**: https://lovable.dev/projects/f1d63533-fd54-4190-aa77-f9b12ad7abd4
 
+## System Architecture
+Here is the system architecture diagram for this project:
+
+![System Architecture](./docs/system-architecture.png)
+
+
 ## How can I edit this code?
 
 There are several ways of editing your application.
