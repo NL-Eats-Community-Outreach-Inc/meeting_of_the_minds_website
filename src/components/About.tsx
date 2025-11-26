@@ -6,7 +6,7 @@ export const About = () => {
     {
       icon: Trophy,
       title: "Elite Competition",
-      description: "St. John's first-ever citywide trivia championship",
+      description: "The inaugural St. John's city-wide trivia championship",
     },
     {
       icon: Heart,
@@ -28,10 +28,11 @@ export const About = () => {
             About the Event
           </h2>
           <p className="text-xl text-card-foreground/80 leading-relaxed">
-            Meeting of the Minds brings together professionals, trivia enthusiasts, and locals
-            for an incredible evening of charity, community, and competition. This is
-            St. John's first-ever citywide trivia championship, featuring expertly hosted
-            rounds that blend pop culture, intellectual challenges, and local knowledge.
+            Meeting of the Minds brings together corporate teams and the local trivia
+            community for an incredible evening of charity, community, and competition.
+            This is the inaugural St. John's city-wide trivia championship,
+            featuring expertly hosted rounds that blend pop culture, intellectual
+            challenges, and local knowledge.
           </p>
         </div>
 
@@ -60,11 +61,11 @@ export const About = () => {
           <Card className="bg-primary text-primary-foreground border-0">
             <CardContent className="p-8 text-center">
               <h3 className="text-2xl font-bold mb-4">
-                Presented by St. John's Best Trivia Hosts
+                Presented by long-time local trivia host Michael Pickard
               </h3>
               <p className="text-lg text-primary-foreground/90">
-                Featuring expertly crafted multimedia trivia rounds with a perfect blend of
-                pop culture, intellectual challenges, and local St. John's knowledge
+                Featuring expertly crafted multimedia trivia rounds with a perfect
+                blend of pop culture, intellectual challenges, and local knowledge
               </p>
             </CardContent>
           </Card>

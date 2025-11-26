@@ -47,11 +47,11 @@ export const Hero = () => {
             </div>
             <div className="flex items-center space-x-2">
               <MapPin className="h-6 w-6" />
-              <span className="font-medium">MUN Signal Hill Campus, St. John's, NL</span>
+              <span className="font-medium">100 Signal Hill Rd, St. John's, NL A1C 5S7</span>
             </div>
             <div className="flex items-center space-x-2">
               <Users className="h-6 w-6" />
-              <span className="font-medium">Max 20 Teams (100 Players)</span>
+              <span className="font-medium">Spaces available for 20 teams of up to 6 players each</span>
             </div>
           </div>
 
