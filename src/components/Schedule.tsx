@@ -16,49 +16,37 @@ export const Schedule = () => {
       icon: BookOpen,
     },
     {
-      time: "7:10–7:58 PM",
-      title: "Round 1-4",
+      time: "7:10–7:50 PM",
+      title: "Round 1-3",
       description: "First four rounds of trivia (10 questions each)",
       icon: Play,
     },
     {
-      time: "7:58–8:12 PM",
+      time: "7:50–8:00 PM",
       title: "First Intermission",
       description: "Stretch, refresh drinks, and strategize",
       icon: Coffee,
     },
     {
-      time: "8:12–8:15 PM",
-      title: "Scoring Update",
-      description: "See how the competition is shaping up",
-      icon: ChartBar,
-    },
-    {
-      time: "8:15–9:03 PM",
-      title: "Round 5-8",
+      time: "8:00–8:40 PM",
+      title: "Round 4-6",
       description: "Multimedia rounds including audio, video, and images",
       icon: Play,
     },
     {
-      time: "9:03–9:18 PM",
+      time: "8:40–9:00 PM",
       title: "Second Intermission",
       description: "Final break and side game results",
       icon: Coffee,
     },
     {
-      time: "9:18–9:21 PM",
-      title: "Scoring Update",
-      description: "See how the competition is shaping up",
-      icon: ChartBar,
-    },
-    {
-      time: "9:21–10:09 PM",
+      time: "9:00–9:40 PM",
       title: "Final Rounds",
       description: "Last challenge rounds with bonus questions",
       icon: Play,
     },
     {
-      time: "10:09–10:30 PM",
+      time: "9:40–10:00 PM",
       title: "Awards Ceremony",
       description: "Winners announced and prizes awarded",
       icon: Trophy,
@@ -66,7 +54,7 @@ export const Schedule = () => {
   ];
 
   const structure = [
-    { label: "Total Rounds", value: "12" },
+    { label: "Total Rounds", value: "9" },
     { label: "Questions per Round", value: "10" },
     { label: "Intermissions", value: "2" },
   ];
