@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Calendar, MapPin, Users } from "lucide-react";
 import heroImage from "@/assets/trivia-hero.jpg";
+import logoImage from "@/assets/transparent-logo.png";
 
 export const Hero = () => {
   const scrollToSection = (id: string) => {
@@ -25,6 +26,16 @@ export const Hero = () => {
       {/* Content */}
       <div className="relative z-10 container mx-auto px-4 py-32 text-center">
         <div className="max-w-4xl mx-auto space-y-8">
+          <div className="flex justify-center -mb-4 -mt-8">
+            <div className="rounded-xl p-1">
+              <img
+                src={logoImage}
+                alt="Meeting of the Minds Logo"
+                className="w-32 h-32 object-contain"
+              />
+            </div>
+          </div>
+
           <div className="inline-block px-4 py-2 bg-accent/90 rounded-full mb-4">
             <p className="text-accent-foreground font-semibold">
               St. John's Annual Trivia Championships
