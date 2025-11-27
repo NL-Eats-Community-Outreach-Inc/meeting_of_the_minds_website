@@ -35,7 +35,7 @@ export const Registration = () => {
               <CardTitle>Team Size</CardTitle>
             </CardHeader>
             <CardContent className="text-center">
-              <p className="text-3xl font-bold text-foreground mb-2">5</p>
+              <p className="text-3xl font-bold text-foreground mb-2">6</p>
               <p className="text-muted-foreground">Players per team</p>
             </CardContent>
           </Card>
