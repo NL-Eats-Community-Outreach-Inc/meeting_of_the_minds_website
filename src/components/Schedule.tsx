@@ -12,13 +12,13 @@ export const Schedule = () => {
     {
       time: "7:00–7:10 PM",
       title: "Introductions",
-      description: "Intros of NL Eats and rules",
+      description: "Intros of NL Eats and rules for the night",
       icon: BookOpen,
     },
     {
       time: "7:10–7:50 PM",
       title: "Round 1-3",
-      description: "First four rounds of trivia (10 questions each)",
+      description: "First three rounds of trivia",
       icon: Play,
     },
     {
@@ -36,7 +36,7 @@ export const Schedule = () => {
     {
       time: "8:40–9:00 PM",
       title: "Second Intermission",
-      description: "Final break and side game results",
+      description: "Final break before the finals",
       icon: Coffee,
     },
     {
