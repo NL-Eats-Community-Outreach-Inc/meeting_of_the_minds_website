@@ -12,7 +12,7 @@ export const Schedule = () => {
     {
       time: "7:00–7:10 PM",
       title: "Introductions",
-      description: "Intros of NL Eats and rules for the night",
+      description: "Introducing NL Eats and rules",
       icon: BookOpen,
     },
     {
