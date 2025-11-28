@@ -47,7 +47,7 @@ export const Hero = () => {
           </h1>
 
           <p className="text-2xl md:text-3xl text-background/90 font-medium">
-            120 of St. John's sharpest minds but only one team can be victorious.
+            120 bright minds. One cause. One champion team.
           </p>
 
           {/* Event Details */}
