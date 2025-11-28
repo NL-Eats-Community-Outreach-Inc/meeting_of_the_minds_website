@@ -7,6 +7,7 @@ export const Registration = () => {
     "Full championship admission",
     "Bar service and complipmentary food",
     "Chance to win a grand prize of $1,000 plus an award for each team member",
+    "Brainiac side game during first intermission",
     "Support NL Eats local charity",
     "Complimentary team photo",
     "Access to side games and contests",
