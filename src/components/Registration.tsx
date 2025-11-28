@@ -5,7 +5,8 @@ import { Users, DollarSign, Gift, Heart, ShoppingCart } from "lucide-react";
 export const Registration = () => {
   const benefits = [
     "Full championship admission",
-    "Chance to win a grand prize of $1,000 plus trophy",
+    "Bar service and complipmentary food",
+    "Chance to win a grand prize of $1,000 plus an award for each team member",
     "Support NL Eats local charity",
     "Complimentary team photo",
     "Access to side games and contests",
