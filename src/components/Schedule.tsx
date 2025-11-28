@@ -24,7 +24,7 @@ export const Schedule = () => {
     {
       time: "7:50–8:00 PM",
       title: "First Intermission",
-      description: "Stretch, refresh drinks, and strategize",
+      description: "Stretch, refresh drinks, and play Brainiac side game",
       icon: Coffee,
     },
     {
