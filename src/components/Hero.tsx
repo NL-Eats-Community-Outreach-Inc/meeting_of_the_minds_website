@@ -55,7 +55,7 @@ export const Hero = () => {
             <div className="flex items-center space-x-2">
               <Calendar className="h-6 w-6" />
               <span className="font-medium">
-                January 31st, 2026 • 7:00-10:00 PM
+                March 7th, 2026 • 7:00-10:00 PM
               </span>
             </div>
             <div className="flex items-center space-x-2">
