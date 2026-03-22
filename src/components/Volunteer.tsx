@@ -2,6 +2,10 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Twitter, Facebook, Instagram, Users } from "lucide-react";
 import { PageSection } from "./common/PageSection";
+import {
+    PageTitle,
+    PageTitleHeader,
+} from "./common/PageTitle";
 
 export const Volunteer = () => {
     const socialLinks = [
@@ -24,11 +28,11 @@ export const Volunteer = () => {
 
     return (
         <PageSection id="media" className="bg-card">
-            <div className="max-w-4xl mx-auto text-center mb-16">
-                <h2 className="text-4xl md:text-5xl font-bold text-card-foreground mb-6">
+            <PageTitle>
+                <PageTitleHeader>
                     Interested in Volunteering?
-                </h2>
-            </div>
+                </PageTitleHeader>
+            </PageTitle>
 
             <div className="max-w-4xl mx-auto space-y-8">
                 {/* Volunteer CTA */}

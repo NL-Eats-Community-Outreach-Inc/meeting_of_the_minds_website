@@ -2,6 +2,11 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Download } from "lucide-react";
 import { PageSection } from "./common/PageSection";
+import {
+    PageTitle,
+    PageTitleHeader,
+    PageSubtitle,
+} from "./common/PageTitle";
 
 export const Sponsors = () => {
     const sponsors = {
@@ -21,14 +26,12 @@ export const Sponsors = () => {
 
     return (
         <PageSection id="sponsors" className="bg-background">
-            <div className="max-w-4xl mx-auto text-center mb-16">
-                <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-6">
-                    Sponsors & Partners
-                </h2>
-                <p className="text-xl text-muted-foreground">
+            <PageTitle>
+                <PageTitleHeader>Sponsors & Partners</PageTitleHeader>
+                <PageSubtitle>
                     Coming Soon : )
-                </p>
-            </div>
+                </PageSubtitle>
+            </PageTitle>
 
             <div className="space-y-12 max-w-5xl mx-auto">
                 {/* Title Sponsor */}

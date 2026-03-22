@@ -1,6 +1,11 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { Clock, Play, Coffee, Trophy, BookOpen, ChartBar } from "lucide-react";
 import { PageSection } from "./common/PageSection";
+import {
+    PageTitle,
+    PageTitleHeader,
+    PageSubtitle,
+} from "./common/PageTitle";
 
 export const Schedule = () => {
     const schedule = [
@@ -62,14 +67,12 @@ export const Schedule = () => {
 
     return (
         <PageSection id="schedule" className="bg-card">
-            <div className="max-w-4xl mx-auto text-center mb-16">
-                <h2 className="text-4xl md:text-5xl font-bold text-card-foreground mb-6">
-                    Event Schedule & Structure
-                </h2>
-                <p className="text-xl text-card-foreground/80">
+            <PageTitle>
+                <PageTitleHeader>Event Schedule & Structure</PageTitleHeader>
+                <PageSubtitle>
                     A well-paced evening of trivia excellence
-                </p>
-            </div>
+                </PageSubtitle>
+            </PageTitle>
 
             {/* Structure Overview */}
             <div className="grid grid-cols-2 md:grid-cols-3 gap-4 max-w-4xl mx-auto mb-12">

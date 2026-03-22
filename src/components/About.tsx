@@ -1,4 +1,9 @@
 import { PageSection } from "./common/PageSection";
+import {
+    PageTitle,
+    PageTitleHeader,
+    PageSubtitle,
+} from "./common/PageTitle";
 import { Card, CardContent } from "@/components/ui/card";
 import { Trophy, Users, Heart, Sparkles } from "lucide-react";
 
@@ -23,19 +28,17 @@ export const About = () => {
 
     return (
         <PageSection id="about" className="bg-card">
-            <div className="max-w-4xl mx-auto text-center mb-16">
-                <h2 className="text-4xl md:text-5xl font-bold text-card-foreground mb-6">
-                    About the Event
-                </h2>
-                <p className="text-xl text-card-foreground/80 leading-relaxed">
+            <PageTitle>
+                <PageTitleHeader>About the Event</PageTitleHeader>
+                <PageSubtitle className="leading-relaxed">
                     Meeting of the Minds brings together corporate teams and
                     the local trivia community for an incredible evening of
                     charity, community, and competition. This is the
                     inaugural St. John's city-wide trivia championship,
                     featuring expertly hosted rounds that blend pop culture,
                     intellectual challenges, and local knowledge.
-                </p>
-            </div>
+                </PageSubtitle>
+            </PageTitle>
 
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                 {features.map((feature) => (

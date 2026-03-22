@@ -2,6 +2,11 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Trophy, Medal, Award, Zap, DollarSign } from "lucide-react";
 import trophyImage from "@/assets/trophy.jpg";
 import { PageSection } from "./common/PageSection";
+import {
+    PageTitle,
+    PageTitleHeader,
+    PageSubtitle,
+} from "./common/PageTitle";
 
 export const Prizes = () => {
     const prizes = [
@@ -55,15 +60,13 @@ export const Prizes = () => {
             </div>
 
             <div className="container mx-auto px-4 relative z-10">
-                <div className="max-w-4xl mx-auto text-center mb-16">
-                    <h2 className="text-4xl md:text-5xl font-bold text-card-foreground mb-6">
-                        Prizes & Highlights
-                    </h2>
-                    <p className="text-xl text-card-foreground/80">
+                <PageTitle>
+                    <PageTitleHeader>Prizes & Highlights</PageTitleHeader>
+                    <PageSubtitle>
                         Over $1,000 in total prizes plus exclusive rewards for
                         top teams
-                    </p>
-                </div>
+                    </PageSubtitle>
+                </PageTitle>
 
                 {/* Main Prizes */}
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto mb-16">
