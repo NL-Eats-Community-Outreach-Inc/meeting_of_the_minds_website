@@ -1,6 +1,7 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Trophy, Medal, Award, Zap, DollarSign } from "lucide-react";
 import trophyImage from "@/assets/trophy.jpg";
+import { PageSection } from "./common/PageSection";
 
 export const Prizes = () => {
     const prizes = [
@@ -43,7 +44,7 @@ export const Prizes = () => {
     ];
 
     return (
-        <section id="prizes" className="py-24 bg-card relative overflow-hidden">
+        <PageSection id="prizes" className="bg-card relative overflow-hidden">
             {/* Background Trophy Image */}
             <div className="absolute right-0 top-1/2 -translate-y-1/2 w-1/3 h-full opacity-5 pointer-events-none hidden lg:block">
                 <img
@@ -135,6 +136,6 @@ export const Prizes = () => {
                     </div>
                 </div>
             </div>
-        </section>
+        </PageSection>
     );
 };
