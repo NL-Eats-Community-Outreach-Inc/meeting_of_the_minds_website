@@ -11,21 +11,21 @@ import { Volunteer } from "@/components/Volunteer";
 import { Footer } from "@/components/Footer";
 
 const Index = () => {
-  return (
-    <div className="min-h-screen">
-      <Header />
-      <main>
-        <Hero />
-        <About />
-        <Registration />
-        <Sponsors />
-        <NLEats />
-        <Schedule />
-        <Volunteer />
-      </main>
-      <Footer />
-    </div>
-  );
+    return (
+        <div className="min-h-screen">
+            <Header />
+            <main>
+                <Hero />
+                <About />
+                <Registration />
+                <Sponsors />
+                <NLEats />
+                <Schedule />
+                <Volunteer />
+            </main>
+            <Footer />
+        </div>
+    );
 };
 
 export default Index;
