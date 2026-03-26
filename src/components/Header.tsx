@@ -13,15 +13,22 @@ export const Header = () => {
         }
     };
 
+    const scrollToTop = () => {
+        window.scrollTo({ top: 0, behavior: "smooth" });
+        setIsOpen(false);
+    };
+
     return (
         <header className="fixed top-0 left-0 right-0 z-50 bg-primary/95 backdrop-blur-sm shadow-soft">
             <div className="container mx-auto px-4">
                 <div className="flex items-center justify-between h-16">
-                    <div className="flex items-center space-x-2">
-                        <h1 className="text-xl font-bold text-primary-foreground">
-                            Meeting of the Minds
-                        </h1>
-                    </div>
+                    <Button
+                        variant="ghost"
+                        className="text-xl font-bold text-primary-foreground px-0 hover:bg-transparent"
+                        onClick={scrollToTop}
+                    >
+                        <h1>Meeting of the Minds</h1>
+                    </Button>
 
                     {/* Desktop Navigation */}
                     <nav className="hidden md:flex items-center space-x-1">
@@ -31,6 +38,13 @@ export const Header = () => {
                             onClick={() => scrollToSection("about")}
                         >
                             About
+                        </Button>
+                        <Button
+                            variant="ghost"
+                            className="text-primary-foreground hover:bg-primary-foreground/10"
+                            onClick={() => scrollToSection("gallery")}
+                        >
+                            Gallery
                         </Button>
                         <Button
                             variant="ghost"
@@ -105,6 +119,13 @@ export const Header = () => {
                             onClick={() => scrollToSection("venue")}
                         >
                             Venue
+                        </Button>
+                        <Button
+                            variant="ghost"
+                            className="w-full justify-start text-primary-foreground hover:bg-primary-foreground/10"
+                            onClick={() => scrollToSection("gallery")}
+                        >
+                            Gallery
                         </Button>
                         <Button
                             className="w-full bg-accent hover:bg-accent/90 text-accent-foreground"
