@@ -1,11 +1,7 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { Clock, Play, Coffee, Trophy, BookOpen, ChartBar } from "lucide-react";
 import { PageSection } from "./common/PageSection";
-import {
-    PageTitle,
-    PageTitleHeader,
-    PageSubtitle,
-} from "./common/PageTitle";
+import { PageTitle, PageTitleHeader, PageSubtitle } from "./common/PageTitle";
 
 export const Schedule = () => {
     const schedule = [
@@ -138,8 +134,7 @@ export const Schedule = () => {
                             <li className="flex items-start space-x-2">
                                 <span className="text-primary mt-1">•</span>
                                 <span>
-                                    Winners determined by highest total
-                                    score
+                                    Winners determined by highest total score
                                 </span>
                             </li>
                             <li className="flex items-start space-x-2">

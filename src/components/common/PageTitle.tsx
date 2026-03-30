@@ -1,4 +1,3 @@
-
 import { cn } from "@/lib/utils";
 import { HTMLAttributes } from "react";
 
@@ -11,10 +10,7 @@ export const PageTitle = ({
 }: PageTitleProps) => {
     return (
         <div
-            className={cn(
-                "max-w-4xl mx-auto text-center mb-16",
-                className,
-            )}
+            className={cn("max-w-4xl mx-auto text-center mb-16", className)}
             {...props}
         >
             {children}
@@ -31,10 +27,7 @@ export const PageSubtitle = ({
 }: PageSubtitleProps) => {
     return (
         <p
-            className={cn(
-                "text-xl text-card-foreground/80",
-                className,
-            )}
+            className={cn("text-xl text-card-foreground/80", className)}
             {...props}
         >
             {children}

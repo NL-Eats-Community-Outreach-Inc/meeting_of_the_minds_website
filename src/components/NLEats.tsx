@@ -2,11 +2,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Heart, ExternalLink } from "lucide-react";
 import { PageSection } from "./common/PageSection";
-import {
-    PageTitle,
-    PageTitleHeader,
-    PageSubtitle,
-} from "./common/PageTitle";
+import { PageTitle, PageTitleHeader, PageSubtitle } from "./common/PageTitle";
 
 export const NLEats = () => {
     return (
@@ -16,12 +12,10 @@ export const NLEats = () => {
                     <div className="w-20 h-20 mx-auto mb-6 rounded-full bg-accent/10 flex items-center justify-center">
                         <Heart className="h-10 w-10 text-accent" />
                     </div>
-                    <PageTitleHeader>
-                        Supporting NL Eats
-                    </PageTitleHeader>
+                    <PageTitleHeader>Supporting NL Eats</PageTitleHeader>
                     <PageSubtitle>
-                        All net profits from Meeting of the Minds go
-                        directly to NL Eats
+                        All net profits from Meeting of the Minds go directly to
+                        NL Eats
                     </PageSubtitle>
                 </PageTitle>
 
@@ -33,13 +27,12 @@ export const NLEats = () => {
                                     About NL Eats
                                 </h3>
                                 <p className="text-lg text-muted-foreground leading-relaxed">
-                                    NL Eats is a local nonprofit
-                                    organization dedicated to providing
-                                    meals and support for families facing
-                                    food insecurity across Newfoundland and
-                                    Labrador. Through community partnerships
-                                    and innovative programs, NL Eats ensures
-                                    that no family goes hungry.
+                                    NL Eats is a local nonprofit organization
+                                    dedicated to providing meals and support for
+                                    families facing food insecurity across
+                                    Newfoundland and Labrador. Through community
+                                    partnerships and innovative programs, NL
+                                    Eats ensures that no family goes hungry.
                                 </p>
                             </div>
 
@@ -62,8 +55,8 @@ export const NLEats = () => {
                                             •
                                         </span>
                                         <span>
-                                            Supports community food programs
-                                            and initiatives
+                                            Supports community food programs and
+                                            initiatives
                                         </span>
                                     </li>
                                     <li className="flex items-start space-x-2">
@@ -82,8 +75,7 @@ export const NLEats = () => {
                                         </span>
                                         <span>
                                             Helps innovators build technical
-                                            solutions to combat food
-                                            insecurity
+                                            solutions to combat food insecurity
                                         </span>
                                     </li>
                                     <li className="flex items-start space-x-2">

@@ -1,11 +1,7 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { Mic } from "lucide-react";
 import { PageSection } from "./common/PageSection";
-import {
-    PageTitle,
-    PageTitleHeader,
-    PageSubtitle,
-} from "./common/PageTitle";
+import { PageTitle, PageTitleHeader, PageSubtitle } from "./common/PageTitle";
 
 export const Hosts = () => {
     const hosts = [
@@ -72,9 +68,7 @@ export const Hosts = () => {
                                 <div className="flex-1">
                                     <h3
                                         className={`${
-                                            index === 0
-                                                ? "text-3xl"
-                                                : "text-xl"
+                                            index === 0 ? "text-3xl" : "text-xl"
                                         } font-bold text-card-foreground mb-1`}
                                     >
                                         {host.name}
@@ -99,8 +93,8 @@ export const Hosts = () => {
                             These veteran hosts bring years of combined
                             experience in crafting and presenting engaging
                             trivia events throughout St. John's. Expect
-                            professionally curated questions, smooth pacing,
-                            and an entertaining atmosphere.
+                            professionally curated questions, smooth pacing, and
+                            an entertaining atmosphere.
                         </p>
                     </CardContent>
                 </Card>

@@ -2,11 +2,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Download } from "lucide-react";
 import { PageSection } from "./common/PageSection";
-import {
-    PageTitle,
-    PageTitleHeader,
-    PageSubtitle,
-} from "./common/PageTitle";
+import { PageTitle, PageTitleHeader, PageSubtitle } from "./common/PageTitle";
 
 export const Sponsors = () => {
     const sponsors = {
@@ -28,9 +24,7 @@ export const Sponsors = () => {
         <PageSection id="sponsors" className="bg-background">
             <PageTitle>
                 <PageTitleHeader>Sponsors & Partners</PageTitleHeader>
-                <PageSubtitle>
-                    Coming Soon : )
-                </PageSubtitle>
+                <PageSubtitle>Coming Soon : )</PageSubtitle>
             </PageTitle>
 
             <div className="space-y-12 max-w-5xl mx-auto">
@@ -91,8 +85,8 @@ export const Sponsors = () => {
                             Want to Join Our Sponsor Team?
                         </h3>
                         <p className="text-lg text-primary-foreground/90 mb-6">
-                            Partner with us to support this incredible
-                            community event
+                            Partner with us to support this incredible community
+                            event
                         </p>
                         <Button
                             size="lg"

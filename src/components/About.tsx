@@ -1,9 +1,5 @@
 import { PageSection } from "./common/PageSection";
-import {
-    PageTitle,
-    PageTitleHeader,
-    PageSubtitle,
-} from "./common/PageTitle";
+import { PageTitle, PageTitleHeader, PageSubtitle } from "./common/PageTitle";
 import { Card, CardContent } from "@/components/ui/card";
 import { Trophy, Users, Heart, Sparkles } from "lucide-react";
 
@@ -31,12 +27,12 @@ export const About = () => {
             <PageTitle>
                 <PageTitleHeader>About the Event</PageTitleHeader>
                 <PageSubtitle className="leading-relaxed">
-                    Meeting of the Minds brings together corporate teams and
-                    the local trivia community for an incredible evening of
-                    charity, community, and competition. This is the
-                    inaugural St. John's city-wide trivia championship,
-                    featuring expertly hosted rounds that blend pop culture,
-                    intellectual challenges, and local knowledge.
+                    Meeting of the Minds brings together corporate teams and the
+                    local trivia community for an incredible evening of charity,
+                    community, and competition. This is the inaugural St. John's
+                    city-wide trivia championship, featuring expertly hosted
+                    rounds that blend pop culture, intellectual challenges, and
+                    local knowledge.
                 </PageSubtitle>
             </PageTitle>
 
@@ -69,9 +65,9 @@ export const About = () => {
                             Pickard
                         </h3>
                         <p className="text-lg text-primary-foreground/90">
-                            Featuring expertly crafted multimedia trivia
-                            rounds with a perfect blend of pop culture,
-                            intellectual challenges, and local knowledge
+                            Featuring expertly crafted multimedia trivia rounds
+                            with a perfect blend of pop culture, intellectual
+                            challenges, and local knowledge
                         </p>
                     </CardContent>
                 </Card>

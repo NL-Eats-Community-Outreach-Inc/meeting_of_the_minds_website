@@ -2,10 +2,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Twitter, Facebook, Instagram, Users } from "lucide-react";
 import { PageSection } from "./common/PageSection";
-import {
-    PageTitle,
-    PageTitleHeader,
-} from "./common/PageTitle";
+import { PageTitle, PageTitleHeader } from "./common/PageTitle";
 
 export const Volunteer = () => {
     const socialLinks = [
@@ -29,9 +26,7 @@ export const Volunteer = () => {
     return (
         <PageSection id="media" className="bg-card">
             <PageTitle>
-                <PageTitleHeader>
-                    Interested in Volunteering?
-                </PageTitleHeader>
+                <PageTitleHeader>Interested in Volunteering?</PageTitleHeader>
             </PageTitle>
 
             <div className="max-w-4xl mx-auto space-y-8">
@@ -45,8 +40,7 @@ export const Volunteer = () => {
                         </h3>
                         <p className="text-lg text-primary-foreground/90 mb-6">
                             To join, all you need to do is send an email to
-                            freddie.pike@nleats.com expressing your
-                            interest!
+                            freddie.pike@nleats.com expressing your interest!
                         </p>
                     </CardContent>
                 </Card>
