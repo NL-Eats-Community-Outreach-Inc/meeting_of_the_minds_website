@@ -1,7 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Calendar, MapPin, Users } from "lucide-react";
-import heroImage from "@/assets/trivia-hero.jpg";
 import logoImage from "@/assets/transparent-logo.png";
+import meetingOne from "@/assets/DSC00041.jpg";
 
 export const Hero = () => {
     const scrollToSection = (id: string) => {
@@ -16,7 +16,7 @@ export const Hero = () => {
             {/* Background Image with Overlay */}
             <div className="absolute inset-0 z-0">
                 <img
-                    src={heroImage}
+                    src={meetingOne}
                     alt="Meeting of the Minds Trivia Championship"
                     className="w-full h-full object-cover"
                 />
@@ -54,9 +54,7 @@ export const Hero = () => {
                     <div className="flex flex-wrap justify-center gap-6 text-background/90 text-lg">
                         <div className="flex items-center space-x-2">
                             <Calendar className="h-6 w-6" />
-                            <span className="font-medium">
-                                March 7th, 2026 • 7:00-10:00 PM
-                            </span>
+                            <span className="font-medium">Late 2026 TBA</span>
                         </div>
                         <div className="flex items-center space-x-2">
                             <MapPin className="h-6 w-6" />
@@ -67,8 +65,7 @@ export const Hero = () => {
                         <div className="flex items-center space-x-2">
                             <Users className="h-6 w-6" />
                             <span className="font-medium">
-                                Spaces available for 20 teams of up to 6 players
-                                each
+                                Spaces available for 20 teams of up to 6 players each
                             </span>
                         </div>
                     </div>
