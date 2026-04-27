@@ -65,7 +65,8 @@ export const Hero = () => {
                         <div className="flex items-center space-x-2">
                             <Users className="h-6 w-6" />
                             <span className="font-medium">
-                                Spaces available for 20 teams of up to 6 players each
+                                Spaces available for 20 teams of up to 6 players
+                                each
                             </span>
                         </div>
                     </div>

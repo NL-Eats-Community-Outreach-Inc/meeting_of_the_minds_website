@@ -5,28 +5,26 @@ import { PageSection } from "./common/PageSection";
 import { PageTitle, PageTitleHeader, PageSubtitle } from "./common/PageTitle";
 
 export const Sponsors = () => {
-  const sponsors = {
-    title: "Title Sponsor",
-    items: ["Shopify"],
-  };
+    const sponsors = {
+        title: "Title Sponsor",
+        items: ["Shopify"],
+    };
 
-  const supporting = {
-    title: "Supporting Sponsors",
-    items: ["Local Business 1", "Local Business 2", "Local Business 3"],
-  };
+    const supporting = {
+        title: "Supporting Sponsors",
+        items: ["Local Business 1", "Local Business 2", "Local Business 3"],
+    };
 
-  const media = {
-    title: "Media Partners",
-    items: ["CBC", "OZ-FM", "Cojones"],
-  };
+    const media = {
+        title: "Media Partners",
+        items: ["CBC", "OZ-FM", "Cojones"],
+    };
 
-  return (
-    <PageSection id="sponsors" className="bg-background">
-
-
-      <div className="space-y-12 max-w-5xl mx-auto">
-        {/* Title Sponsor */}
-        {/* <div>
+    return (
+        <PageSection id="sponsors" className="bg-background">
+            <div className="space-y-12 max-w-5xl mx-auto">
+                {/* Title Sponsor */}
+                {/* <div>
             <h3 className="text-2xl font-bold text-center text-foreground mb-8">
               {sponsors.title}
             </h3>
@@ -41,8 +39,8 @@ export const Sponsors = () => {
             </Card>
           </div> */}
 
-        {/* Supporting Sponsors */}
-        {/* <div>
+                {/* Supporting Sponsors */}
+                {/* <div>
             <h3 className="text-2xl font-bold text-center text-foreground mb-8">
               {supporting.title}
             </h3>
@@ -57,8 +55,8 @@ export const Sponsors = () => {
             </div>
           </div> */}
 
-        {/* Media Partners */}
-        {/* <div>
+                {/* Media Partners */}
+                {/* <div>
             <h3 className="text-2xl font-bold text-center text-foreground mb-8">
               {media.title}
             </h3>
@@ -72,33 +70,33 @@ export const Sponsors = () => {
               ))}
             </div>
           </div> */}
-      </div>
+            </div>
 
-      {/* Become a Sponsor CTA */}
-      <div className="mt-16 max-w-2xl mx-auto">
-        <Card className="bg-gradient-to-r from-primary to-primary/80 text-primary-foreground border-0">
-          <CardContent className="p-8 text-center">
-            <h3 className="text-2xl font-bold mb-4">
-              Want to Join Our Sponsor Team?
-            </h3>
-            <p className="text-lg text-primary-foreground/90 mb-6">
-              Partner with us to support this incredible community
-              event
-            </p>
-            <Button
-              size="lg"
-              className="bg-background text-primary hover:bg-background/90"
-              onClick={() => {
-                window.location.href =
-                  "https://www.canva.com/design/DAG4y9evWSE/XOiulbhtgL-PP4euOrNJYw/edit?utm_content=DAG4y9evWSE&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton";
-              }}
-            >
-              <Download className="mr-2 h-5 w-5" />
-              View Sponsorship Package
-            </Button>
-          </CardContent>
-        </Card>
-      </div>
-    </PageSection>
-  );
+            {/* Become a Sponsor CTA */}
+            <div className="mt-16 max-w-2xl mx-auto">
+                <Card className="bg-gradient-to-r from-primary to-primary/80 text-primary-foreground border-0">
+                    <CardContent className="p-8 text-center">
+                        <h3 className="text-2xl font-bold mb-4">
+                            Want to Join Our Sponsor Team?
+                        </h3>
+                        <p className="text-lg text-primary-foreground/90 mb-6">
+                            Partner with us to support this incredible community
+                            event
+                        </p>
+                        <Button
+                            size="lg"
+                            className="bg-background text-primary hover:bg-background/90"
+                            onClick={() => {
+                                window.location.href =
+                                    "https://www.canva.com/design/DAG4y9evWSE/XOiulbhtgL-PP4euOrNJYw/edit?utm_content=DAG4y9evWSE&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton";
+                            }}
+                        >
+                            <Download className="mr-2 h-5 w-5" />
+                            View Sponsorship Package
+                        </Button>
+                    </CardContent>
+                </Card>
+            </div>
+        </PageSection>
+    );
 };

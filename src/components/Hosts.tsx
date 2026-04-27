@@ -62,7 +62,9 @@ export const Hosts = () => {
                                     }`}
                                 >
                                     <Mic
-                                        className={`${index === 0 ? "h-8 w-8" : "h-6 w-6"} text-primary`}
+                                        className={`${
+                                            index === 0 ? "h-8 w-8" : "h-6 w-6"
+                                        } text-primary`}
                                     />
                                 </div>
                                 <div className="flex-1">
