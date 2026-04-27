@@ -1,4 +1,4 @@
-# Welcome to your Lovable project
+# Meeting of the Minds Website
 
 ## Project info
 
