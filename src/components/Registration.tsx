@@ -1,10 +1,4 @@
-import {
-    Card,
-    CardContent,
-    CardDescription,
-    CardHeader,
-    CardTitle,
-} from "@/components/ui/card";
+import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Users, DollarSign, Gift, Heart, ShoppingCart } from "lucide-react";
 
@@ -21,8 +15,7 @@ export const Registration = () => {
 
     const handleRegister = () => {
         // Redirect to shopify website
-        window.location.href =
-            "https://shop.meetingofthemindstrivia.com/products/tickets";
+        window.location.href = "https://shop.meetingofthemindstrivia.com/products/meeting-of-the-minds-ff-atlantic-2026-team-ticket";
     };
 
     return (
@@ -33,8 +26,7 @@ export const Registration = () => {
                         Team Registration
                     </h2>
                     <p className="text-xl text-muted-foreground">
-                        Secure your team's spot in St. John's most anticipated
-                        trivia championship
+                        Secure your team's spot in St. John's most anticipated trivia championship
                     </p>
                 </div>
 
@@ -45,12 +37,8 @@ export const Registration = () => {
                             <CardTitle>Team Size</CardTitle>
                         </CardHeader>
                         <CardContent className="text-center">
-                            <p className="text-3xl font-bold text-foreground mb-2">
-                                6
-                            </p>
-                            <p className="text-muted-foreground">
-                                Players per team
-                            </p>
+                            <p className="text-3xl font-bold text-foreground mb-2">6</p>
+                            <p className="text-muted-foreground">Players per team</p>
                         </CardContent>
                     </Card>
 
@@ -60,9 +48,7 @@ export const Registration = () => {
                             <CardTitle>Entry Fee</CardTitle>
                         </CardHeader>
                         <CardContent className="text-center">
-                            <p className="text-3xl font-bold text-foreground mb-2">
-                                $200
-                            </p>
+                            <p className="text-3xl font-bold text-foreground mb-2">$200</p>
                             <p className="text-muted-foreground">Per team</p>
                         </CardContent>
                     </Card>
@@ -73,12 +59,8 @@ export const Registration = () => {
                             <CardTitle>Limited Spots</CardTitle>
                         </CardHeader>
                         <CardContent className="text-center">
-                            <p className="text-3xl font-bold text-foreground mb-2">
-                                20
-                            </p>
-                            <p className="text-muted-foreground">
-                                Teams maximum
-                            </p>
+                            <p className="text-3xl font-bold text-foreground mb-2">14</p>
+                            <p className="text-muted-foreground">Teams maximum</p>
                         </CardContent>
                     </Card>
                 </div>
@@ -86,9 +68,7 @@ export const Registration = () => {
                 <Card className="max-w-2xl mx-auto border-accent border-2 bg-gradient-to-br from-background to-accent/5">
                     <CardHeader className="text-center">
                         <Gift className="h-16 w-16 mx-auto mb-4 text-accent" />
-                        <CardTitle className="text-2xl">
-                            What's Included
-                        </CardTitle>
+                        <CardTitle className="text-2xl">What's Included</CardTitle>
                         <CardDescription className="text-lg">
                             Your team registration includes:
                         </CardDescription>
@@ -96,16 +76,11 @@ export const Registration = () => {
                     <CardContent>
                         <ul className="space-y-3 mb-8">
                             {benefits.map((benefit) => (
-                                <li
-                                    key={benefit}
-                                    className="flex items-start space-x-3"
-                                >
+                                <li key={benefit} className="flex items-start space-x-3">
                                     <div className="rounded-full bg-primary/10 p-1 mt-0.5">
                                         <Heart className="h-4 w-4 text-primary" />
                                     </div>
-                                    <span className="text-foreground text-lg">
-                                        {benefit}
-                                    </span>
+                                    <span className="text-foreground text-lg">{benefit}</span>
                                 </li>
                             ))}
                         </ul>
@@ -120,8 +95,7 @@ export const Registration = () => {
                         </Button>
 
                         <p className="text-center text-muted-foreground mt-4 text-sm">
-                            Limited to 20 teams • First come, first served •
-                            Powered by secure Shopify checkout
+                            Limited to 14 teams • First come, first served • Powered by secure Shopify checkout
                         </p>
                     </CardContent>
                 </Card>

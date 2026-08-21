@@ -64,7 +64,7 @@ export const Header = () => {
                             className="ml-4 bg-accent hover:bg-accent/90 text-accent-foreground"
                             onClick={() => {
                                 window.location.href =
-                                    "https://shop.meetingofthemindstrivia.com/products/tickets";
+                                    "https://shop.meetingofthemindstrivia.com/products/meeting-of-the-minds-ff-atlantic-2026-team-ticket";
                             }}
                         >
                             Register Your Team!

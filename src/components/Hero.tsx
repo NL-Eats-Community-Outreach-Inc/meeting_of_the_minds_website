@@ -54,18 +54,18 @@ export const Hero = () => {
                     <div className="flex flex-wrap justify-center gap-6 text-background/90 text-lg">
                         <div className="flex items-center space-x-2">
                             <Calendar className="h-6 w-6" />
-                            <span className="font-medium">Late 2026 TBA</span>
+                            <span className="font-medium">September 23rd, 2026 • 7:00-9:30 PM</span>
                         </div>
                         <div className="flex items-center space-x-2">
                             <MapPin className="h-6 w-6" />
                             <span className="font-medium">
-                                100 Signal Hill Rd, St. John's, NL A1C 5S7
+                                180 Portugal Cove Rd, St. John's, NL A1B 2N2
                             </span>
                         </div>
                         <div className="flex items-center space-x-2">
                             <Users className="h-6 w-6" />
                             <span className="font-medium">
-                                Spaces available for 20 teams of up to 6 players
+                                Spaces available for 14 teams of up to 6 players
                                 each
                             </span>
                         </div>
