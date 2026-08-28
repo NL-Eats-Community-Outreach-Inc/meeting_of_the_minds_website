@@ -68,7 +68,7 @@ export const Footer = () => {
                 <div className="border-t border-primary-foreground/20 pt-8">
                     <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
                         <p className="text-primary-foreground/60 text-sm text-center md:text-left">
-                            © 2025 Meeting of the Minds. All rights reserved.
+                            © 2026 Meeting of the Minds. All rights reserved.
                         </p>
                         <div className="flex items-center space-x-2 text-primary-foreground/80">
                             <span>Made with</span>
